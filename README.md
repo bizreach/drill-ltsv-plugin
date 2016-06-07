@@ -6,7 +6,7 @@ Apache Drill plugin for [LTSV (Labeled Tab-separated Values)](http://ltsv.org/) 
 Installation
 ----
 
-Download `drill-ltsv-plugin-VERSION.jar` from the download page and put it into `DRILL_HOME/jars/3rdparty`.
+Download `drill-ltsv-plugin-VERSION.jar` from the [release page](https://github.com/bizreach/drill-ltsv-plugin/releases) and put it into `DRILL_HOME/jars/3rdparty`.
 
 Add ltsv format setting to the storage configuration as below:
 
