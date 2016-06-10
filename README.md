@@ -2,6 +2,20 @@ drill-ltsv-plugin
 ====
 Apache Drill plugin for [LTSV (Labeled Tab-separated Values)](http://ltsv.org/) files.
 
+What is LTSV?
+----
+LTSV is a format for the text file like this:
+
+```
+label:value<TAB>label:value<TAB>label:value ...
+```
+
+Quote the explanation from the web site:
+
+> Labeled Tab-separated Values (LTSV) format is a variant of Tab-separated Values (TSV). Each record in a LTSV file is represented as a single line. Each field is separated by TAB and has a label and a value. The label and the value have been separated by ‘:’. With the LTSV format, you can parse each line by spliting with TAB (like original TSV format) easily, and extend any fields with unique labels in no particular order.
+> LTSV is simple and flexible. Parsing LTSV is super easy, and we can add new fields feel free. It’s very suitable for various logs.
+
+This plugin adds LTSV suuport to Apache Drill.
 
 Installation
 ----
