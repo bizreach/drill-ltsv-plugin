@@ -37,3 +37,8 @@ Add ltsv format setting to the storage configuration as below:
 ```
 
 Then you can query `*.ltsv` files on Apache Drill.
+
+Build from source
+----
+
+Run `mvn package`. `drill-ltsv-plugin-VERSION.jar` is generated into `target` directory.
