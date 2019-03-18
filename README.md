@@ -1,5 +1,8 @@
 drill-ltsv-plugin
 ====
+This project is no longer maintained. You can use [Drill LTSV storage plugin](https://github.com/apache/drill/tree/master/contrib/format-ltsv) as of Drill 1.16.
+----
+
 Apache Drill plugin for [LTSV (Labeled Tab-separated Values)](http://ltsv.org/) files.
 
 What is LTSV?
